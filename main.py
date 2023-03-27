@@ -28,7 +28,16 @@ def defence(char_name: str, char_class: str) -> str:
 
 
 def special(char_name: str, char_class: str) -> str:
+<<<<<<< HEAD
     """Apply the unique skills of each class."""
+=======
+    """Applies unique skills of each class.
+
+    Warrior - increases health.
+    Mage - increases attack damage.
+    Healer - increases protection.
+    """
+>>>>>>> 58c0aac4c88a16214b3d39796fc148e70e81d606
     if char_class == 'warrior':
         return (f'{char_name} применил специальное умение «Выносливость '
                 f' {80 + 25}»')
@@ -65,7 +74,11 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
+<<<<<<< HEAD
     """Open the menu and choose a character class."""
+=======
+    """Opens the start menu and character class selection."""
+>>>>>>> 58c0aac4c88a16214b3d39796fc148e70e81d606
     approve_choice: str = ''
     char_class: str = ''
     while approve_choice != 'y':
